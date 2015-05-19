@@ -1,0 +1,30 @@
+{
+  "name": "fxa-snippet-server",
+  "version": "0.0.0",
+  "description": "Firefox Accounts Marketing Snippet Server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shane-tomlinson/fxa-snippet-server"
+  },
+  "keywords": [
+    "Firefox",
+    "Accounts",
+    "Marketing"
+  ],
+  "author": "Mozilla (https://mozilla.org/)",
+  "license": "MPL 2.0",
+  "bugs": {
+    "url": "https://github.com/shane-tomlinson/fxa-snippet-server/issues"
+  },
+  "homepage": "https://github.com/shane-tomlinson/fxa-snippet-server",
+  "dependencies": {
+    "handlebars": "^3.0.3",
+    "hapi": "^8.4.0",
+    "nunjucks": "^1.3.4"
+  }
+}
